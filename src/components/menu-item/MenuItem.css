@@ -1,0 +1,31 @@
+.menu-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 1em;
+  background: #aeaeae;
+  margin: 1em;
+  min-width: 100px;
+
+  cursor: pointer;
+}
+
+.menu-item.active > a {
+  font-weight: 600;
+  color: #990099 !important;
+}
+
+.menu-item:hover {
+  border: 1px #909090;
+  box-shadow: 1px 1px 3px 3px #909090;
+}
+
+.menu-item > a,
+.menu-item > a:hover,
+.menu-item > a:visited,
+.menu-item > a:link,
+.menu-item > a:active {
+  color: #212121;
+  text-decoration: none;
+}
